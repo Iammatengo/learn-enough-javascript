@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Properties Boolean Control Flow</title>
+  </head>
+  <body>
+    <h1>Properties - Booleans - Control Flow In JavaScript</h1>
+    <p></p>
+    <script>
+      console.log("badger".length)
+      console.log("badger".length > 10);
+      console.log("badger".indexOf[5]);
+      console.log("1" === 1)
+      let password = "foofoofoo";
+
+      if(password.length <= 5){
+          console.log("Your PASSWORD is SHORT")
+      }else{
+        console.log("YOU HAVE A STRONG PASSWORD")
+      }
+
+      <!-- AND OPERATOR -->
+      let x = "foo";
+      let y = "";
+      if(x.length === 0 && y.length === 0){
+        console.log("Both Strings are Empty");
+      }else{
+        console.log("At LEAST one of the strings is non-Empty");
+      }
+      <!-- OR OPERATOR -->
+      if(!(x.length === 0)){
+        console.log('X is not empty')
+      }else{
+        console.log("X is Empty")
+      }
+    </script>
+  </body>
+</html>
